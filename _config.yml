@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "zakolenko"
 title_right   : ""
-description   : "Minimalist Jekyll theme for technical writing blog."
+description   : "personal site"
 keywords      : "zakolenko, scala, java, functional, programming, software"
 url           : https://zakolenko.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
@@ -9,6 +9,8 @@ cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-165401968-1
 twitter_username  : ""
+linkedin_username : zakolenko
+github_username   : zakolenko
 comments_enabled  : false # if enabled (set to true), please provide your disqus_username
 disqus_shortname  : ""
 postshare_enabled : true
