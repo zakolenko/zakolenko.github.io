@@ -36,6 +36,7 @@ plugins:
   - jekyll-sitemap
   - bourbon
   - jekyll-paginate
+  - jekyll-fontawesome-svg
 
 # navbar pages
 navbar:
