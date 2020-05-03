@@ -1,18 +1,19 @@
 ---
 # this is an empty front matter
 ---
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <footer class="site-footer">
   <div class="container">
     <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; &lt;/&gt;
         {% if site.linkedin %}
         <a class="link" rel="noreferrer" data-title="linkedin.com/in/{{ site.linkedin }}" href="//linkedin.com/in/{{ site.linkedin }}" >
-            {% fa_svg fab.fa-linkedin %}
+            <i class='fa fa-linkedin'></i>
         </a>
         {% endif %}
 
         {% if site.github %}
         <a class="link" rel="noreferrer" data-title="github.com/{{ site.github }}" href="//github.com/{{ site.github }}" >
-            {% fa_svg fab.fa-github %}
+            <i class='fa fa-github'></i>
         </a>
         {% endif %}
     </small>
