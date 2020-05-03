@@ -1,5 +1,17 @@
 <footer class="site-footer">
   <div class="container">
-    <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; &lt;/&gt; <a href="https://github.com/zakolenko"> <i class="fa fa-github"></i> </a></small>
+    <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; &lt;/&gt;
+        {% if site.linkedin %}
+        <a class="link" rel="noreferrer" data-title="linkedin.com/in/{{ site.linkedin }}" href="//linkedin.com/in/{{ site.linkedin }}" >
+            {% fa_svg fab.fa-linkedin %}
+        </a>
+        {% endif %}
+
+        {% if site.github %}
+        <a class="link" rel="noreferrer" data-title="github.com/{{ site.github }}" href="//github.com/{{ site.github }}" >
+            {% fa_svg fab.fa-github %}
+        </a>
+        {% endif %}
+    </small>
   </div>
 </footer>
